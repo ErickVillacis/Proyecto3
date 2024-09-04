@@ -1,0 +1,29 @@
+type User {
+  id: ID!
+  email: String!
+}
+
+type Solicitud {
+  id: ID!
+  userId: ID!
+  monto: Float!
+  motivo: String!
+  duracion: Int!
+  ingresos_brutos: Float
+  gastos_mensuales: Float
+  cantidad_propiedades: Int
+  cedula: String
+}
+
+type Historial {
+  id: ID!
+  solicitudId: ID!
+  estado: String!
+  justificacion: String!
+}
+
+type Query {
+  getSolicitudesByUser(userId: ID!): [Solicitud]
+  getHistorialBySolicitud(solicitudId: ID!): [Historial]
+  getSolicitudesByUserAll(userId: ID!): [Solicitud]
+}

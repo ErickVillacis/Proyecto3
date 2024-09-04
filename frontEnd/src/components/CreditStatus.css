@@ -1,0 +1,114 @@
+.credit-status-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f6f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 10px;
+  }
+  
+  .ingresos-color {
+    background-color: #0088FE;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .gastos-color {
+    background-color: #00C49F;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .additional-info {
+    margin-top: 20px;
+  }
+  
+  .status-icon {
+    font-size: 24px;
+    color: green;
+  }
+  
+  .propiedades-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .home-icon {
+    font-size: 32px;
+    color: #3498db;
+    margin-right: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f2f6fa;
+  }
+  
+  .content {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .chart {
+    flex: 1;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .stats {
+    margin-bottom: 30px;
+  }
+  
+  .stats p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .grafico-leyenda {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+  }
+  
